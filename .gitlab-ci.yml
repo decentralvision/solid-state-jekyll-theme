@@ -4,7 +4,6 @@ pages:
   stage: build
   script:
   - gem install jekyll
-  - bundle install
   - jekyll build -d public
   - gem build solid_state_jekyll_theme.gemspec
   artifacts:
