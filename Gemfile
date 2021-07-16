@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 gemspec
 gem "webrick"
-gem "github-pages"
+gem 'github-pages', '~> 215'
