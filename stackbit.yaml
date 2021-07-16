@@ -1,0 +1,92 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+cmsName: git
+devCommand: gem install jekyll bundler && bundle install && bundle exec jekyll build
+models:
+  general:
+    type: page
+    label: General
+    folder: _posts/general
+    match: '*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: category
+        label: Category
+      - type: string
+        name: title
+        label: Title
+      - type: boolean
+        name: pinned
+        label: Pinned
+      - type: image
+        name: image
+        label: Image
+      - type: string
+        name: description
+        label: Description
+  feature:
+    type: page
+    label: Feature
+    folder: features
+    match: '*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: boolean
+        name: featured
+        label: Featured
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: description
+        label: Description
+      - type: number
+        name: order
+        label: Order
+        subtype: int
+      - type: image
+        name: image
+        label: Image
+  page_1:
+    type: page
+    label: Page 1
+    match: '*'
+    exclude:
+      - vitae phasellus.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: landing-title
+        label: Landing Title
+      - type: markdown
+        name: description
+        label: Description
+  page_2:
+    type: page
+    label: Page 2
+    match: '*'
+    exclude:
+      - index.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: description
+        label: Description
