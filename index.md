@@ -1,10 +1,12 @@
 ---
 layout: home
 title: Home
-landing-title: THIS IS SOLID STATE
-description:  Another free + fully responsive site template by <a href="http://html5up.net">HTML5 UP</a>
+landing-title: THIS IS SPALIFTER
+description:  Automated Spa Cover Lift <br/><br/>Remote Control Operation <br/><br/>Universal Fit For All Spa Covers
 image: null
 author: null
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+
+Remote Control Operation
+Universal Fit For All Spa Covers

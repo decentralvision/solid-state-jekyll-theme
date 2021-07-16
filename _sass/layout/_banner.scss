@@ -12,28 +12,22 @@
 		.inner {
 			margin: 0 auto;
 			width: _size(inner);
+			padding: 1em;
+
 		}
 
-		.logo {
+		.outline {
 			@include vendor('transition', (
 				'opacity 2s ease',
 				'transform 1s ease',
 			));
 			@include vendor('transform', 'translateY(0)');
-			opacity: 1;
-			margin: 0 0 (_size(element-margin) * 0.65) 0;
+			border-radius: 1em;
+			border: solid 2px _palette(border);
+			box-shadow: 0 0 4em rgb(42, 1, 59);
+			float:right;
+			width: 60%;
 
-			.icon {
-				border-radius: 100%;
-				border: solid 2px _palette(border);
-				cursor: default;
-				display: inline-block;
-				font-size: 2em;
-				height: 2.25em;
-				line-height: 2.25em;
-				text-align: center;
-				width: 2.25em;
-			}
 		}
 
 		h2 {
